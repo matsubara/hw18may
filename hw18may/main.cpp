@@ -8,7 +8,6 @@
 
 // Modify the Account class to have only basic behavior
 // Create the InvestmentAccount that inherits from the Account class. Create stockValuation method that increases balance by stockInterest rate (attribute).
-//Create the SavingsAccount that inherits from the Account class. Create savingsValuation method that increases balance by savingsInterest rate
 
 
 
@@ -22,17 +21,17 @@ int main(int argc, const char * argv[]) {
     
     //std::cout << brenosSavAcc.balance;
     
-    brenosSavAcc.setInterestRate(0.1);
+   brenosSavAcc.setInterestRate(0);
     std::cout << brenosSavAcc.savingsValuation();
     std::cout << brenosSavAcc.savingsValuation();
-    std::cout << brenosSavAcc.withdraw(5);
-    std::cout << brenosSavAcc.deposit(1);
+    std::cout << brenosSavAcc.withdraw(0);
+    std::cout << brenosSavAcc.deposit(0);
     
     
     
     Account johnsAcc;
     
-/*    Account brenosBankAccount(0);
+   Account brenosBankAccount(100);
     Account mauriciosBankAccount(10);
     float remainingBalance;
     float transferResult;
@@ -72,7 +71,6 @@ int main(int argc, const char * argv[]) {
     
     std::cout<< "\n";
     std::cout<<"\n";
- */
     return 0;
 }
 

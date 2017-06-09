@@ -10,5 +10,14 @@
 #define InvestmentAccount_hpp
 
 #include <stdio.h>
-
+#include "Account.hpp"
 #endif /* InvestmentAccount_hpp */
+
+class InvestmentAccount : public Account {
+private:
+    float stockRate;
+public:
+    InvestmentAccount(float initalInvestmentBalance);
+    float setStockRate (float stockValuationRate);
+    float stockValuation ();
+};

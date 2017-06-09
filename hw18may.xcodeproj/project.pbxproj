@@ -10,6 +10,7 @@
 		22B354521ECE56F300F6C2BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B354511ECE56F300F6C2BB /* main.cpp */; };
 		22B354631ECE583D00F6C2BB /* Account.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B354611ECE583D00F6C2BB /* Account.cpp */; };
 		22B354661ECE587400F6C2BB /* SavingsAccount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B354641ECE587400F6C2BB /* SavingsAccount.cpp */; };
+		5599342B1ED4C49D00114213 /* InvestmentAccount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 559934291ED4C49D00114213 /* InvestmentAccount.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		22B354621ECE583D00F6C2BB /* Account.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Account.hpp; sourceTree = "<group>"; };
 		22B354641ECE587400F6C2BB /* SavingsAccount.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SavingsAccount.cpp; sourceTree = "<group>"; };
 		22B354651ECE587400F6C2BB /* SavingsAccount.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SavingsAccount.hpp; sourceTree = "<group>"; };
+		559934291ED4C49D00114213 /* InvestmentAccount.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InvestmentAccount.cpp; sourceTree = "<group>"; };
+		5599342A1ED4C49D00114213 /* InvestmentAccount.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = InvestmentAccount.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				22B354621ECE583D00F6C2BB /* Account.hpp */,
 				22B354641ECE587400F6C2BB /* SavingsAccount.cpp */,
 				22B354651ECE587400F6C2BB /* SavingsAccount.hpp */,
+				559934291ED4C49D00114213 /* InvestmentAccount.cpp */,
+				5599342A1ED4C49D00114213 /* InvestmentAccount.hpp */,
 			);
 			path = hw18may;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5599342B1ED4C49D00114213 /* InvestmentAccount.cpp in Sources */,
 				22B354521ECE56F300F6C2BB /* main.cpp in Sources */,
 				22B354631ECE583D00F6C2BB /* Account.cpp in Sources */,
 				22B354661ECE587400F6C2BB /* SavingsAccount.cpp in Sources */,
@@ -260,6 +266,7 @@
 				22B354571ECE56F300F6C2BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
